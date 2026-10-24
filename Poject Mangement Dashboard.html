@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Management Dashboard</title>
+<link rel="stylesheet" href="Project Management Dashboard.css">
+</head>
+
+<body>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#tasks">Tasks</a>
+        <a href="#team">Team</a>
+    </nav>
+
+    <header id="home">
+        <h1>Project Management Dashboard</h1>
+        <p>Plan, Organize and Track Your Work</p>
+    </header>
+
+    <div class="container" id="projects">
+        <h2>Project Summary</h2>
+
+        <div class="summary">
+            <div class="card">
+                <h3>Total Projects</h3>
+                <p class="number">6</p>
+            </div>
+
+            <div class="card">
+                <h3>Tasks Completed</h3>
+                <p class="number">18</p>
+            </div>
+
+            <div class="card">
+                <h3>Pending Tasks</h3>
+                <p class="number">8</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Project Progress</h2>
+
+        <div class="card">
+            <h3>Website Development</h3>
+            <p>Progress: 70%</p>
+
+            <div class="progress">
+                <div class="bar" style="width: 70%;"></div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h3>Student Management System</h3>
+            <p>Progress: 45%</p>
+
+            <div class="progress">
+                <div class="bar" style="width: 45%;"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="tasks">
+        <h2>Kanban Task Board</h2>
+
+        <div class="kanban">
+
+            <div class="column">
+                <h3>To Do</h3>
+
+                <div class="task">
+                    <h4>Design Homepage</h4>
+                    <p>Deadline: 25 Oct</p>
+                    <p class="priority high">High Priority</p>
+                </div>
+
+                <div class="task">
+                    <h4>Prepare Content</h4>
+                    <p>Deadline: 27 Oct</p>
+                    <p class="priority medium">Medium Priority</p>
+                </div>
+            </div>
+
+            <div class="column">
+                <h3>In Progress</h3>
+
+                <div class="task">
+                    <h4>Develop Website</h4>
+                    <p>Deadline: 28 Oct</p>
+                    <p class="priority high">High Priority</p>
+                </div>
+
+                <div class="task">
+                    <h4>Test Webpages</h4>
+                    <p>Deadline: 29 Oct</p>
+                    <p class="priority low">Low Priority</p>
+                </div>
+            </div>
+
+            <div class="column">
+                <h3>Completed</h3>
+
+                <div class="task">
+                    <h4>Create Layout</h4>
+                    <p>Completed: 20 Oct</p>
+                    <p class="priority low">Completed</p>
+                </div>
+
+                <div class="task">
+                    <h4>Plan Project</h4>
+                    <p>Completed: 21 Oct</p>
+                    <p class="priority low">Completed</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container" id="team">
+        <h2>Our Team Members</h2>
+
+        <div class="team">
+            <div class="member">
+                <h3>Sathwika</h3>
+                <p>Project Manager</p>
+            </div>
+
+            <div class="member">
+                <h3>Riyaz</h3>
+                <p>Web Designer</p>
+            </div>
+
+            <div class="member">
+                <h3>Akshaya</h3>
+                <p>Developer</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Project Management Dashboard</p>
+        <p>Created using HTML and CSS</p>
+    </footer>
+
+</body>
+</html>
